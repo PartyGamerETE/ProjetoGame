@@ -2,7 +2,7 @@
 
     session_start();
 
-    require_once('db.class.php');
+    require_once('db.php');
 
     $usuario = $_POST['usuario'];
     $senha = $_POST['senha'];

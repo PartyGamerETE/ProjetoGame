@@ -9,7 +9,7 @@
 	<head>
 		<meta charset="UTF-8">
 
-		<title>Twitter clone</title>
+		<title>Game Party</title>
 
 		<!-- jquery - link cdn -->
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -95,7 +95,7 @@
 <?php
 
 if($erro == 1){
-echo '<font color="#FF0000">Usuário e ou senha inválido(s)</font>';
+echo '<font color="#FF0000">Usuário e/ou senha inválido(s)</font>';
 }
 
 ?>

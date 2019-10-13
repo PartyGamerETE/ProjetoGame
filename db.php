@@ -1,8 +1,6 @@
 <?php
-
-    class db {
-
-        //host
+class db {
+    //host
         private $host = 'localhost';
 
         //usuario
@@ -34,3 +32,4 @@
     }
 
 ?>
+}

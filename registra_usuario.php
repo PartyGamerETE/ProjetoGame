@@ -1,6 +1,6 @@
 <?php
 
-    require_once('db.class.php');
+    require_once('db.php');
 
     $usuario = $_POST['usuario'];
     $email = $_POST['email'];
@@ -14,6 +14,7 @@
     //executar a query
     if(mysqli_query($link, $sql)){
         echo "Usuário registrado com sucesso!";
+        header('Location: index.php');
     }else{
         echo "Erro ao registrar o usuário!";
     }

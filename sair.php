@@ -6,6 +6,7 @@
     unset($_SESSION['email']);
 
     echo 'Esperamos você de volta em breve!!!';
+    header('Location: index.php')
 
 ?>
 
